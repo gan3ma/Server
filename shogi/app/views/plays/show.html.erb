@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Turn player:</strong>
+  <%= @play.turn_player %>
+</p>
+
+<p>
+  <strong>Turn number:</strong>
+  <%= @play.turn_number %>
+</p>
+
+<p>
+  <strong>End flag:</strong>
+  <%= @play.end_flag %>
+</p>
+
+<p>
+  <strong>Room no:</strong>
+  <%= @play.room_no %>
+</p>
+
+<%= link_to 'Edit', edit_play_path(@play) %> |
+<%= link_to 'Back', plays_path %>

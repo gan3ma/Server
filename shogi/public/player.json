@@ -1,0 +1,11 @@
+{
+  "first_player": {
+    "user_id": 1,
+    "name"   : "hoge"
+  },
+  "last_player": {
+    "user_id": 2,
+    "name"   : "foo"
+  }
+}
+

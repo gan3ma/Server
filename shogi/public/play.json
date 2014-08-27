@@ -1,0 +1,6 @@
+{
+  "turn_count"   : 10,
+  "watcher_count": 15,
+  "turn_player"  : 1,
+  "state"        : "playing"
+}

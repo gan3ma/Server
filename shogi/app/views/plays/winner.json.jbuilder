@@ -1,0 +1,1 @@
+json.winner @play.winner
