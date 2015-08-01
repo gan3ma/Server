@@ -4,6 +4,7 @@ class MasterPiece < ActiveRecord::Migration
       t.string :name
       t.integer :posx
       t.integer :posy
+      t.integer :owner
     end
 
     rename_column :pieces, :piece_no, :piece_id

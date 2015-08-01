@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(version: 20150801050351) do
     t.string  "name"
     t.integer "posx"
     t.integer "posy"
+    t.integer "owner"
   end
 
   create_table "pieces", force: true do |t|
