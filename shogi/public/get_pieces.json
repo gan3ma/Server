@@ -1,242 +1,282 @@
 {
-  "1": {
-    "posx"   : 1,
-    "posy"   : 7,
-    "owner"  : 1,
-    "promote": false
-  },
-  "2": {
-    "posx"   : 2,
-    "posy"   : 7,
-    "owner"  : 1,
-    "promote": false
-  },
-  "3": {
-    "posx"   : 3,
-    "posy"   : 7,
-    "owner"  : 1,
-    "promote": false
-  },
-  "4": {
-    "posx"   : 4,
-    "posy"   : 7,
-    "owner"  : 1,
-    "promote": false
-  },
-  "5": {
-    "posx"   : 5,
-    "posy"   : 7,
-    "owner"  : 1,
-    "promote": false
-  },
-  "6": {
-    "posx"   : 6,
-    "posy"   : 7,
-    "owner"  : 1,
-    "promote": false
-  },
-  "7": {
-    "posx"   : 7,
-    "posy"   : 7,
-    "owner"  : 1,
-    "promote": false
-  },
-  "8": {
-    "posx"   : 8,
-    "posy"   : 7,
-    "owner"  : 1,
-    "promote": false
-  },
-  "9": {
-    "posx"   : 9,
-    "posy"   : 7,
-    "owner"  : 1,
-    "promote": false
-  },
-  "10": {
-    "posx"   : 1,
-    "posy"   : 3,
-    "owner"  : 2,
-    "promote": false
-  },
-  "11": {
-    "posx"   : 2,
-    "posy"   : 3,
-    "owner"  : 2,
-    "promote": false
-  },
-  "12": {
-    "posx"   : 3,
-    "posy"   : 3,
-    "owner"  : 2,
-    "promote": false
-  },
-  "13": {
-    "posx"   : 4,
-    "posy"   : 3,
-    "owner"  : 2,
-    "promote": false
-  },
-  "14": {
-    "posx"   : 5,
-    "posy"   : 3,
-    "owner"  : 2,
-    "promote": false
-  },
-  "15": {
-    "posx"   : 6,
-    "posy"   : 3,
-    "owner"  : 2,
-    "promote": false
-  },
-  "16": {
-    "posx"   : 7,
-    "posy"   : 3,
-    "owner"  : 2,
-    "promote": false
-  },
-  "17": {
-    "posx"   : 8,
-    "posy"   : 3,
-    "owner"  : 2,
-    "promote": false
-  },
-  "18": {
-    "posx"   : 9,
-    "posy"   : 3,
-    "owner"  : 2,
-    "promote": false
-  },
-  "19": {
-    "posx"   : 1,
-    "posy"   : 9,
-    "owner"  : 1,
-    "promote": false
-  },
-  "20": {
-    "posx"   : 9,
-    "posy"   : 9,
-    "owner"  : 1,
-    "promote": false
-  },
-  "21": {
-    "posx"   : 1,
-    "posy"   : 1,
-    "owner"  : 2,
-    "promote": false
-  },
-  "22": {
-    "posx"   : 9,
-    "posy"   : 1,
-    "owner"  : 2,
-    "promote": false
-  },
-  "23": {
-    "posx"   : 2,
-    "posy"   : 9,
-    "owner"  : 1,
-    "promote": false
-  },
-  "24": {
-    "posx"   : 8,
-    "posy"   : 9,
-    "owner"  : 1,
-    "promote": false
-  },
-  "25": {
-    "posx"   : 2,
-    "posy"   : 1,
-    "owner"  : 2,
-    "promote": false
-  },
-  "26": {
-    "posx"   : 8,
-    "posy"   : 1,
-    "owner"  : 2,
-    "promote": false
-  },
-  "27": {
-    "posx"   : 3,
-    "posy"   : 9,
-    "owner"  : 1,
-    "promote": false
-  },
-  "28": {
-    "posx"   : 7,
-    "posy"   : 9,
-    "owner"  : 1,
-    "promote": false
-  },
-  "29": {
-    "posx"   : 3,
-    "posy"   : 1,
-    "owner"  : 2,
-    "promote": false
-  },
-  "30": {
-    "posx"   : 7,
-    "posy"   : 1,
-    "owner"  : 2,
-    "promote": false
-  },
-  "31": {
-    "posx"   : 4,
-    "posy"   : 9,
-    "owner"  : 1,
-    "promote": false
-  },
-  "32": {
-    "posx"   : 6,
-    "posy"   : 9,
-    "owner"  : 1,
-    "promote": false
-  },
-  "33": {
-    "posx"   : 4,
-    "posy"   : 1,
-    "owner"  : 2,
-    "promote": false
-  },
-  "34": {
-    "posx"   : 6,
-    "posy"   : 1,
-    "owner"  : 2,
-    "promote": false
-  },
-  "35": {
-    "posx"   : 2,
-    "posy"   : 8,
-    "owner"  : 1,
-    "promote": false
-  },
-  "36": {
-    "posx"   : 8,
-    "posy"   : 2,
-    "owner"  : 2,
-    "promote": false
-  },
-  "37": {
-    "posx"   : 8,
-    "posy"   : 8,
-    "owner"  : 1,
-    "promote": false
-  },
-  "38": {
-    "posx"   : 2,
-    "posy"   : 2,
-    "owner"  : 2,
-    "promote": false
-  },
-  "39": {
-    "posx"   : 5,
-    "posy"   : 9,
-    "owner"  : 1,
-    "promote": false
-  },
-  "40": {
-    "posx"   : 5,
-    "posy"   : 1,
-    "owner"  : 2,
-    "promote": false
-  }
+    "1": {
+        "name": "fu", 
+        "owner": 5, 
+        "posx": 9, 
+        "posy": 7, 
+        "promote": false
+    }, 
+    "10": {
+        "name": "fu", 
+        "owner": 6, 
+        "posx": 1, 
+        "posy": 3, 
+        "promote": false
+    }, 
+    "11": {
+        "name": "fu", 
+        "owner": 6, 
+        "posx": 2, 
+        "posy": 3, 
+        "promote": false
+    }, 
+    "12": {
+        "name": "fu", 
+        "owner": 6, 
+        "posx": 3, 
+        "posy": 3, 
+        "promote": false
+    }, 
+    "13": {
+        "name": "fu", 
+        "owner": 6, 
+        "posx": 4, 
+        "posy": 3, 
+        "promote": false
+    }, 
+    "14": {
+        "name": "fu", 
+        "owner": 6, 
+        "posx": 5, 
+        "posy": 3, 
+        "promote": false
+    }, 
+    "15": {
+        "name": "fu", 
+        "owner": 6, 
+        "posx": 6, 
+        "posy": 3, 
+        "promote": false
+    }, 
+    "16": {
+        "name": "fu", 
+        "owner": 6, 
+        "posx": 7, 
+        "posy": 3, 
+        "promote": false
+    }, 
+    "17": {
+        "name": "fu", 
+        "owner": 6, 
+        "posx": 8, 
+        "posy": 3, 
+        "promote": false
+    }, 
+    "18": {
+        "name": "fu", 
+        "owner": 6, 
+        "posx": 9, 
+        "posy": 3, 
+        "promote": false
+    }, 
+    "19": {
+        "name": "kyosha", 
+        "owner": 5, 
+        "posx": 9, 
+        "posy": 9, 
+        "promote": false
+    }, 
+    "2": {
+        "name": "fu", 
+        "owner": 5, 
+        "posx": 8, 
+        "posy": 7, 
+        "promote": false
+    }, 
+    "20": {
+        "name": "kyosha", 
+        "owner": 5, 
+        "posx": 1, 
+        "posy": 9, 
+        "promote": false
+    }, 
+    "21": {
+        "name": "kyosya", 
+        "owner": 6, 
+        "posx": 1, 
+        "posy": 1, 
+        "promote": false
+    }, 
+    "22": {
+        "name": "kyosya", 
+        "owner": 6, 
+        "posx": 9, 
+        "posy": 1, 
+        "promote": false
+    }, 
+    "23": {
+        "name": "keima", 
+        "owner": 5, 
+        "posx": 8, 
+        "posy": 9, 
+        "promote": false
+    }, 
+    "24": {
+        "name": "keima", 
+        "owner": 5, 
+        "posx": 2, 
+        "posy": 9, 
+        "promote": false
+    }, 
+    "25": {
+        "name": "keima", 
+        "owner": 6, 
+        "posx": 2, 
+        "posy": 1, 
+        "promote": false
+    }, 
+    "26": {
+        "name": "keima", 
+        "owner": 6, 
+        "posx": 8, 
+        "posy": 1, 
+        "promote": false
+    }, 
+    "27": {
+        "name": "gin", 
+        "owner": 5, 
+        "posx": 7, 
+        "posy": 9, 
+        "promote": false
+    }, 
+    "28": {
+        "name": "gin", 
+        "owner": 5, 
+        "posx": 3, 
+        "posy": 9, 
+        "promote": false
+    }, 
+    "29": {
+        "name": "gin", 
+        "owner": 6, 
+        "posx": 3, 
+        "posy": 1, 
+        "promote": false
+    }, 
+    "3": {
+        "name": "fu", 
+        "owner": 5, 
+        "posx": 7, 
+        "posy": 7, 
+        "promote": false
+    }, 
+    "30": {
+        "name": "gin", 
+        "owner": 6, 
+        "posx": 7, 
+        "posy": 1, 
+        "promote": false
+    }, 
+    "31": {
+        "name": "kin", 
+        "owner": 5, 
+        "posx": 6, 
+        "posy": 9, 
+        "promote": false
+    }, 
+    "32": {
+        "name": "kin", 
+        "owner": 5, 
+        "posx": 4, 
+        "posy": 9, 
+        "promote": false
+    }, 
+    "33": {
+        "name": "kin", 
+        "owner": 6, 
+        "posx": 4, 
+        "posy": 1, 
+        "promote": false
+    }, 
+    "34": {
+        "name": "kin", 
+        "owner": 6, 
+        "posx": 6, 
+        "posy": 1, 
+        "promote": false
+    }, 
+    "35": {
+        "name": "hisya", 
+        "owner": 5, 
+        "posx": 2, 
+        "posy": 8, 
+        "promote": false
+    }, 
+    "36": {
+        "name": "hisya", 
+        "owner": 6, 
+        "posx": 2, 
+        "posy": 2, 
+        "promote": false
+    }, 
+    "37": {
+        "name": "kaku", 
+        "owner": 5, 
+        "posx": 8, 
+        "posy": 8, 
+        "promote": false
+    }, 
+    "38": {
+        "name": "kaku", 
+        "owner": 6, 
+        "posx": 8, 
+        "posy": 2, 
+        "promote": false
+    }, 
+    "39": {
+        "name": "oh", 
+        "owner": 5, 
+        "posx": 5, 
+        "posy": 9, 
+        "promote": false
+    }, 
+    "4": {
+        "name": "fu", 
+        "owner": 5, 
+        "posx": 6, 
+        "posy": 7, 
+        "promote": false
+    }, 
+    "40": {
+        "name": "oh", 
+        "owner": 6, 
+        "posx": 5, 
+        "posy": 1, 
+        "promote": false
+    }, 
+    "5": {
+        "name": "fu", 
+        "owner": 5, 
+        "posx": 5, 
+        "posy": 7, 
+        "promote": false
+    }, 
+    "6": {
+        "name": "fu", 
+        "owner": 5, 
+        "posx": 4, 
+        "posy": 7, 
+        "promote": false
+    }, 
+    "7": {
+        "name": "fu", 
+        "owner": 5, 
+        "posx": 3, 
+        "posy": 7, 
+        "promote": false
+    }, 
+    "8": {
+        "name": "fu", 
+        "owner": 5, 
+        "posx": 2, 
+        "posy": 7, 
+        "promote": false
+    }, 
+    "9": {
+        "name": "fu", 
+        "owner": 5, 
+        "posx": 1, 
+        "posy": 7, 
+        "promote": false
+    }
 }
