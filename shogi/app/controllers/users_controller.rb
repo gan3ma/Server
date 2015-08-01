@@ -57,8 +57,7 @@ class UsersController < ApplicationController
       @play = Play.find(params[:play_id])
       @play.state = "exit"
       winner = PlayingUser.where(:play_id => params[:play_id],  :role => "player").where.not( :user_id => params[:user_id]  ).last
-      unless winner.empty?
-        @play.winner = winner.id
+      @play.winner = winner.id unless winner.empty?
       @play.save!
 
       users = PlayingUser.where( :user_id => params[:user_id], :play_id => params[:play_id] ).all

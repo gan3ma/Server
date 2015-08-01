@@ -59,7 +59,7 @@ MasterPiece.seed do |s|
   s.name = 'fu'
   s.posx = 1
   s.posy = 7
-  s.owner = 2
+  s.owner = 1
 end
 MasterPiece.seed do |s|
   s.id = 10
