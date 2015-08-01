@@ -81,10 +81,9 @@ class UsersController < ApplicationController
 
       (1..40).to_a.each do |id|
         master = MasterPiece.find(id)
-        owner = (id < 21) ? 1 : 2
         Piece.create(
           # data[:owner]が1なら先手、2なら後手の駒。
-          :piece_id => master.id, :play => play, :posx => master.posx, :posy => master.posy, :promote => false, :owner => owner
+          :piece_id => master.id, :play => play, :posx => master.posx, :posy => master.posy, :promote => false, :owner => master.owner
         )
       end
     end
