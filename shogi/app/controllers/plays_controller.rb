@@ -29,7 +29,7 @@ class PlaysController < ApplicationController
   def update
     # begin
       # 1. play_idとuser_idとmove_idでpiecesテーブルからデータを拾ってくる
-      @p_move = Piece.where( :play_id => params[:play_id], :piece_no => params[:move_id] ).first
+      @p_move = Piece.where( :play_id => params[:play_id], :piece_id => params[:move_id] ).first
       # 2. posxとposyを更新
       @p_move.posx = params[:posx]
       @p_move.posy = params[:posy]
@@ -39,13 +39,13 @@ class PlaysController < ApplicationController
 
       # render :json => @p_move
       @play = Play.find(params[:play_id])
-      
+
       # binding.pry
       # 3. get_idが-1かどうか確認
       if params[:get_id] != "-1"
         # 4. get_idが-1でない場合、play_idとget_idでpiecesテーブルからデータを拾ってくる
         if params[:get_id] != ""
-          @p_get = Piece.where( :play_id => params[:play_id], :piece_no => params[:get_id] ).first
+          @p_get = Piece.where( :play_id => params[:play_id], :piece_id => params[:get_id] ).first
           # 5. posxとposyを更新して保存
           @p_get.posx = 0
           @p_get.posy = 0

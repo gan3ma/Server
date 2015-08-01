@@ -79,12 +79,12 @@ class UsersController < ApplicationController
   end
     def initalize_pieces(play)
 
-      pieces_config = JSON.parse(File.read("#{Rails.root}/public/get_pieces.json"))
-      
-      pieces_config.each do |id, data|
+      (1..40).to_a.each do |id|
+        master = MasterPiece.find(id)
+        owner = (id < 21) ? 1 : 2
         Piece.create(
           # data[:owner]が1なら先手、2なら後手の駒。
-          :piece_no => id, :play => play, :posx => data['posx'], :posy => data['posy'],:promote => false, :owner => data['owner']
+          :piece_id => master.id, :play => play, :posx => master.posx, :posy => master.posy, :promote => false, :owner => owner
         )
       end
     end

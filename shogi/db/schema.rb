@@ -11,10 +11,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140820080158) do
+ActiveRecord::Schema.define(version: 20150801050351) do
+
+  create_table "master_pieces", force: true do |t|
+    t.string  "name"
+    t.integer "posx"
+    t.integer "posy"
+  end
 
   create_table "pieces", force: true do |t|
-    t.integer  "piece_no",                   null: false
+    t.integer  "piece_id",                   null: false
     t.integer  "play_id",                    null: false
     t.integer  "posx",                       null: false
     t.integer  "posy",                       null: false
@@ -28,13 +34,13 @@ ActiveRecord::Schema.define(version: 20140820080158) do
     t.integer  "user_id"
     t.integer  "play_id"
     t.string   "role"
-    t.string   "exit_flag",  default: "f", null: false
+    t.string   "exit_flag",  default: "0", null: false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  add_index "playing_users", ["play_id"], name: "index_playing_users_on_play_id"
-  add_index "playing_users", ["user_id"], name: "index_playing_users_on_user_id"
+  add_index "playing_users", ["play_id"], name: "index_playing_users_on_play_id", using: :btree
+  add_index "playing_users", ["user_id"], name: "index_playing_users_on_user_id", using: :btree
 
   create_table "plays", force: true do |t|
     t.integer  "turn_player"
