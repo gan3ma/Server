@@ -140,14 +140,14 @@ MasterPiece.seed do |s|
 end
 MasterPiece.seed do |s|
   s.id = 21
-  s.name = 'kyosya'
+  s.name = 'kyosha'
   s.posx = 1
   s.posy = 1
   s.owner = 2
 end
 MasterPiece.seed do |s|
   s.id = 22
-  s.name = 'kyosya'
+  s.name = 'kyosha'
   s.posx = 9
   s.posy = 1
   s.owner = 2
@@ -238,15 +238,15 @@ MasterPiece.seed do |s|
 end
 MasterPiece.seed do |s|
   s.id = 35
-  s.name = 'hisya'
+  s.name = 'hisha'
   s.posx = 2
   s.posy = 8
   s.owner = 1
 end
 MasterPiece.seed do |s|
   s.id = 36
-  s.name = 'hisya'
-  s.posx = 2
+  s.name = 'hisha'
+  s.posx = 8
   s.posy = 2
   s.owner = 2
 end
@@ -260,7 +260,7 @@ end
 MasterPiece.seed do |s|
   s.id = 38
   s.name = 'kaku'
-  s.posx = 8
+  s.posx = 2
   s.posy = 2
   s.owner = 2
 end
