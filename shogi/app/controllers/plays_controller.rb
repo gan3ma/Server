@@ -88,6 +88,18 @@ class PlaysController < ApplicationController
     render 'state', :formats => [:json], :hanlders => [:jbuilder]
   end
 
+  def test
+    @test = 'hoge'
+    render 'test', :formats => [:json], :hanlders => [:jbuilder]
+  end
+
+  def room
+    @active = Play.where(state: 'playing').select(:id, :state, :room_no, :first_player, :last_player)
+    @active += Play.where(state: 'waiting').select(:id, :state, :room_no, :first_player, :last_player)
+    @active.sort! {|a, b| a[:room_no].to_i <=> b[:room_no].to_i}
+    render 'room', :formats => [:json], :hanlders => [:jbuilder]
+  end
+
   private
 
     # Use callbacks to share common setup or constraints between actions.

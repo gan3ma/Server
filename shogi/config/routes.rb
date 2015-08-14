@@ -7,6 +7,8 @@ Rails.application.routes.draw do
   get  'plays/:id'        => 'plays#show'
   get  'plays/:id/winner' => 'plays#get_winner'
   get  'plays/:id/pieces' => 'plays#get_pieces'
+  get  'plays/:id/test' => 'plays#test'
+  get  'plays/:id/rooms' => 'plays#room'
   post 'plays/update'     => 'plays#update'
 
   # debug用
